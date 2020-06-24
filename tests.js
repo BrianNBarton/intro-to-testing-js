@@ -40,12 +40,53 @@ describe('sayHello', function() {
     });
     //exercise 6
 //exercise 7
-
+    // exercise 8
+    it('()should return the string "Hello, World!" when executed', function () {
+        expect(sayHello()).toBe("Hello, World!");
+    });
+    it('(true)should return the string "Hello, World!" when executed', function () {
+        expect(sayHello(true)).toBe("Hello, World!");
+    });
+    it('(false)should return the string "Hello, World!" when executed', function () {
+        expect(sayHello(false)).toBe("Hello, World!");
+    });
+    it('(null)should return the string "Hello, Pat!" when executed', function () {
+        expect(sayHello(null)).toBe("Hello, World!");
+    });
+    it('("")should return the string "Hello, World!" when executed', function () {
+        expect(sayHello("")).toBe("Hello, World!");
+    });
+    it('(2.3)should return the string "Hello, World!" when executed', function () {
+        expect(sayHello(2.3)).toBe("Hello, World!");
+    });
 
 });
 
+//
+//
+// // exercise 10
+// describe('isFive', function() {
+//     it('should be a defined function', function () {
+//         expect(typeof isFive).toBe('function');
+//     });
+//     it('should return a boolean when called', function () {
+//         expect(typeof isFive()).toBe("boolean");
+//     });
+//
+// });
 
 
+
+
+
+
+// describe('isFive', function() {
+//     it('should be a defined function', function () {
+//         expect(typeof isFive).toBe('function');
+//         it('should return a boolean when called', function () {
+//             expect(typeof isFive()).toBe("boolean");
+//         });
+//     });
 
 
 
