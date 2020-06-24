@@ -1,6 +1,22 @@
 // helloWorld function 
-function sayHello() {
+function helloWorld() {
     return "Hello, World!";
 }
+
+
+//let name = "Jane"
+
+
+
+function sayHello(name) {
+    return "Hello, "+name+"!";
+}
+
+
+//{
+  //  return "Hello " +name+ "!"
+//} else {
+
+
 
 
