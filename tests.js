@@ -60,6 +60,20 @@ describe('sayHello', function() {
         expect(sayHello(2.3)).toBe("Hello, World!");
     });
 
+
+});
+
+
+describe('isFive', function() {
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('(true)should return a boolean', function () {
+        expect(typeof isFive()).toBe("boolean");
+    });
+    it('(true)should return a boolean', function () {
+        expect(typeof isFive("5")).toBe("boolean");
+    });
 });
 
 //

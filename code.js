@@ -4,24 +4,6 @@ function helloWorld() {
 }
 
 
-//
-//
-//         function sayHello(input) {
-//             if (typeof input === "undefined"){
-//                 return "Hello, World!";
-//             } else if (typeof input === "boolean"){
-//                 return "Hello, World!";
-//             } else if (typeof input === null){
-//                 return "Hello, World!";
-//             } else if (typeof input === ""){
-//                 return "Hello, World!";
-//             } else {
-//                 return "Hello, " + input + "!";
-//
-//         }
-// }
-
-
         function sayHello(input) {
     if (typeof input === "undefined"){
         return "Hello, World!";
@@ -36,5 +18,10 @@ function helloWorld() {
     } else {
         return "Hello, " + input + "!";
     }
-
 }
+        function isFive(input) {
+   return input == 5;
+}
+
+
+    
